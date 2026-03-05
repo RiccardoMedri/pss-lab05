@@ -1,4 +1,4 @@
-# Improving an existing design with inheritance
+ # Improving an existing design with inheritance
 
 Look at `SimpleBankAccount` and `StrictBankAccount`.
 
