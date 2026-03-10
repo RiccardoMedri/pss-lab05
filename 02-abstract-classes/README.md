@@ -15,3 +15,7 @@ Create from scratch a class `RestrictedBankAccount extends AbstractBankAccount`,
 Answer the following question:
 
 Is this design in your opinion better or worse than the previous one? Why?
+
+Answer:
+
+This design is better than the previous one because it moves all the shared logic into a single abstract class and leaves only the real variation points to the subclasses. In this way there is less duplicated code, the responsibilities are clearer, and adding a new kind of bank account becomes easier because it is enough to define the withdrawal policy and the fee computation.
